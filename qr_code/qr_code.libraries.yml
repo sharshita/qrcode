@@ -1,0 +1,5 @@
+qr_code:
+  version: 1.x
+  css:
+    theme:
+        css/qr_code.css: {}

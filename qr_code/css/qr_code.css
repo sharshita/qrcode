@@ -1,0 +1,7 @@
+.main-content .region--content {
+    display: flex !important;
+}
+#block-qrcodeblock {
+    width: 40%;
+    margin: 10px;
+}
