@@ -39,12 +39,11 @@ class QrcodeBlock extends BlockBase {
           'qr_code/qr_code'
         ]
       ]
+      '#cache' => [
+        'tags' => ['node:'$nid],
+      ]
     ];
   
-  }
-
-  public function getCacheMaxAge() {
-    return 0;
   }
 
 }
