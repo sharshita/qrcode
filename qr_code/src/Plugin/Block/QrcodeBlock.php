@@ -40,7 +40,7 @@ class QrcodeBlock extends BlockBase {
         ]
       ]
       '#cache' => [
-        'tags' => ['node:'$nid],
+        'tags' => ['node:'.$nid],
       ]
     ];
   
