@@ -38,7 +38,7 @@ class QrcodeBlock extends BlockBase {
         'library' => [
           'qr_code/qr_code'
         ]
-      ]
+      ],
       '#cache' => [
         'tags' => ['node:'.$nid],
       ]
